@@ -1,0 +1,6 @@
+.idea
+package-lock.json
+yarn.lock
+node_modules
+src/public/*
+.DS_Store
