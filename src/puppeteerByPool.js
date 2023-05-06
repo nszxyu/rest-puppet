@@ -27,6 +27,7 @@ const initPuppeteerPool = () => {
       puppeteer.launch({
         // headless:false,//有头模式
         dumpio: true,
+        slowMo: 100,
         args: [
           '--no-zygote',
           '--no-sandbox',
